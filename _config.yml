@@ -17,7 +17,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: dvonrohr
 github_username:  dvonrohr
 linkedin_username: dvonrohr
-facebook_username: dvonrohr
+facebook_username: daniel.vonrohr
 
 # Build settings
 markdown: kramdown
