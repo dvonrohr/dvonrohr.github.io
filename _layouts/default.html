@@ -5,12 +5,20 @@
 
   <body>
 
-    {% include header.html %}
+    <div id="menu">
+      slideout
+    </div>
 
-    {{ content }}
+    <div id="panel">
+      {% include header.html %}
 
-    {% include footer.html %}
+      {{ content }}
 
+      {% include footer.html %}
+    </div>
+
+    <script src="/js/vendor/slideout-0.1.12/dist/slideout.min.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 
 </html>
