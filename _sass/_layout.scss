@@ -113,6 +113,12 @@
     margin-left: 0;
 }
 
+.site-header .social-media-list {
+    li {
+        display: inline;
+    }
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
