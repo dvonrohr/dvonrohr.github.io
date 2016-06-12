@@ -13,6 +13,11 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -85,7 +90,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
-
+h1 {
+    color: rgba(31,32,33,1);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Abel';
+}
 
 /**
  * Links
@@ -203,4 +217,14 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Lead text
+ */
+.lead {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 34px;
 }

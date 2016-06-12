@@ -2,22 +2,54 @@
 layout: default
 ---
 
-<div class="home">
+<section class="full-height">
+  <div class="page-content">
+    <div class="wrapper">
+        <h1>Hello World</h1>
 
-  <h1 class="page-heading">Posts</h1>
+        <p class="lead">
+          Hello. We are a multi-disciplinary team working together to craft awesome websites,
+          realise brand identities, design for print and capture visual imagery through
+          photography. Take a look at some of our work below.
+        </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>
+          <a href="#">READ MORE</a>
+        </p>
+    </div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section class="page-content">
+  <div class="wrapper">
 
+    <div class="home">
+
+      <h1 class="page-heading">Posts</h1>
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+
+            {{ post.excerpt }}
+
+            <p>
+              <a class="more" href="{{ post.url | <prepend:>site.baseurl }}</prepend:>}}">
+                Read more
+              </a>
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>
+  </div>
 </div>
