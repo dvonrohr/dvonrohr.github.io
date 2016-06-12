@@ -4,7 +4,7 @@
     'panel': document.getElementById('panel'),
     'menu': document.getElementById('menu'),
     'side': 'right',
-    'padding': 256,
+    'padding': 340,
     'tolerance': 70
   });
 

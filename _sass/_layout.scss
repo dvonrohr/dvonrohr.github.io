@@ -251,6 +251,9 @@
     }
 }
 
+#panel {
+    background: white;
+}
 
 .slideout-menu {
     position: fixed;
@@ -259,7 +262,7 @@
     bottom: 0;
     right: 0;
     z-index: 0;
-    width: 265px;
+    width: 340px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     display: none;
