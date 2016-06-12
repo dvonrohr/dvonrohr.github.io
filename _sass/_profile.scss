@@ -10,8 +10,8 @@
 }
 
 .toggle-button {
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
   float: right;
   border-radius: 50%;
@@ -22,12 +22,22 @@
   margin-left: 6px;
   font-size: 14px;
   color: $grey-color-light;
+  transition: all 0.1s ease;
 
   svg {
     position: relative;
-    height: 60%;
-    width: 60%;
+    top: 1px;
+    left: 1px;
+    height: 17px;
+    width: 17px;
     fill: $grey-color-dark;
+  }
+
+  &:hover {
+    background: $grey-color-dark;
+    svg {
+      fill: white;
+    }
   }
 }
 

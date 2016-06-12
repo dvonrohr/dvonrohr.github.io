@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    padding: 7px 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,7 +12,7 @@
     line-height: 3.2;
 
     .social-media-list {
-        float: right;
+        float: left;
         margin-bottom: 0;
     }
 }
@@ -123,6 +123,10 @@
 .site-header .social-media-list {
     li {
         display: inline;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 }
 
@@ -288,8 +292,4 @@
 
 .slideout-open .slideout-menu {
     display: block;
-}
-
-.border-bottom {
-    border-bottom: 1px solid $grey-color-light;
 }
