@@ -9,6 +9,28 @@
   margin: auto;
 }
 
+.toggle-button {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid $grey-color-light;
+  text-align: center;
+  line-height: 43px;
+  margin-left: 6px;
+  font-size: 14px;
+  color: $grey-color-light;
+
+  svg {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    fill: $grey-color-dark;
+  }
+}
+
 .section-about {
 
   .img-rounded {
