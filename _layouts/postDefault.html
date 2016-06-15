@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+<header class="site-header">
+      <div class="post-header-wrapper" style="background-image:url(/img/blog/{{ page.image }});">
+    {% include header.html %}
+        <h1>{{ page.title }}</h1>
+      </div>
+  </header>
+
+
+    <div id="menu">
+      {% include about.html %}
+    </div>
+
+    <div id="panel">
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+    <script src="/js/vendor/slideout-0.1.12/dist/slideout.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+
+</html>

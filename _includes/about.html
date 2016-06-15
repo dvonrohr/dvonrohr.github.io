@@ -1,28 +1,27 @@
 <section class="section-about">
-  <h2>About Me</h2>
+    <h2>About Me</h2>
 
-  <img src="/img/profile.jpg" class="img-rounded img-responsive">
+    <img src="/img/profile.jpg" class="img-rounded img-responsive">
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat.
-  </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
 
-  <h2>Social Profiles</h2>
+    <h2>Social Profiles</h2> {% include social-icons.html %}
 
-  <h2>Recent Posts</h2>
-  <ul>
-    {% for post in site.posts limit:10 %}
-      <li>
-        <a href="{{ post.url }}">
+    <h2>Recent Posts</h2>
+    <ul>
+        {% for post in site.posts limit:10 %}
+        <li>
+            <a href="{{ post.url }}">
           {{ post.title }}<br>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </a>
-      </li>
-    {% endfor %}
-  </ul>
+        </li>
+        {% endfor %}
+    </ul>
 
-  <h2>Twitter</h2>
-<a class="twitter-timeline" data-height="600" href="https://twitter.com/dvonrohr">Tweets by dvonrohr</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></section>
+    <h2>Twitter</h2>
+    <a class="twitter-timeline" data-height="600" href="https://twitter.com/dvonrohr">Tweets by dvonrohr</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
