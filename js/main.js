@@ -11,6 +11,7 @@
 
   // Toggle button
   document.querySelector('.toggle-button').addEventListener('click', function() {
+    document.getElementById('menu').style.visibility = 'visible';
     slideout.toggle();
   });
 

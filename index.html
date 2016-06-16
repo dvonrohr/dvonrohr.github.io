@@ -47,7 +47,7 @@ layout: default
             {{ post.excerpt }}
 
             <p>
-              <a class="more" href="{{ post.url | <prepend:>site.baseurl }}</prepend:>}}">
+              <a class="more" href="{{ post.url | prepend: site.baseurl }}">
                 Read more
               </a>
             </p>
@@ -59,4 +59,4 @@ layout: default
 
     </div>
   </div>
-</div>
+</section>
