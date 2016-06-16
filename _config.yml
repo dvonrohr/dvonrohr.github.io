@@ -18,8 +18,3 @@ facebook_username: daniel.vonrohr
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-srcset
-
-# gems: [jekyll/responsive_image]
