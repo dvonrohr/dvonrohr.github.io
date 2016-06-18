@@ -134,6 +134,17 @@
   }
 }
 
+.icon--back {
+  svg {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    top: -1px;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
 .social-media-list {
   li {
     display: inline;
@@ -212,6 +223,7 @@
 .post-list {
   list-style: none;
   margin-left: 0;
+  color: $grey-color;
 
   > li {
     margin-bottom: $spacing-unit;
@@ -238,7 +250,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 65vh;
   position: relative;
 
   .wrapper-top {
