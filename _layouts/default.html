@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-  <body>
-
-    <div id="menu">
-      {% include about.html %}
+    {% include head.html %}
+<body>
+    <div class="menu">
+        {% include about.html %}
     </div>
 
-    <div id="panel">
-      <header class="site-header">
-      {% include header.html %}
-    </header>
+    <div class="panel">
+        <header class="site-header">
+            {% include header.html %}
+        </header>
 
-      {{ content }}
-
-      {% include footer.html %}
+        {{ content }} {% include footer.html %}
     </div>
 
     <script src="/js/vendor/slideout-0.1.12/dist/slideout.min.js"></script>
     <script src="/js/main.js"></script>
-  </body>
+</body>
 </html>

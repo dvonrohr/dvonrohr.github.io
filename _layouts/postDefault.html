@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-{% include head.html %}
-
+    {% include head.html %}
 <body>
-    <div id="menu">
+    <div class="menu">
         {% include about.html %}
     </div>
 
-    <div id="panel">
+    <div class="panel">
         <header class="site-header">
             <div class="post-header-wrapper" style="background-image:url(/img/blog/{{ page.image }});">
 
@@ -23,5 +21,4 @@
     <script src="/js/vendor/slideout-0.1.12/dist/slideout.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
-
 </html>

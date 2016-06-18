@@ -1,8 +1,11 @@
 (function() {
 
+  var panel = document.getElementsByClassName('panel')[0],
+      menu  = document.getElementsByClassName('menu')[0];
+
   var slideout = new Slideout({
-    'panel': document.getElementById('panel'),
-    'menu': document.getElementById('menu'),
+    'panel': panel,
+    'menu': menu,
     'side': 'right',
     'padding': 340,
     'tolerance': 70,
@@ -11,7 +14,7 @@
 
   // Toggle button
   document.querySelector('.toggle-button').addEventListener('click', function() {
-    document.getElementById('menu').style.visibility = 'visible';
+    menu.style.visibility = 'visible';
     slideout.toggle();
   });
 
