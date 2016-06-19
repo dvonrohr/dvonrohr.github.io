@@ -36,4 +36,20 @@
   {% comment %}
   <meta property="fb:app_id" content="{{ site.fb_appid }}">
   {% endcomment %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Daniel Von Rohr",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      "http://www.facebook.com/{{ site.facebook_username }}",
+      "https://github.com/{{ site.github_username }}",
+      "http://www.linkedin.com/in/{{ site.linkedin_username }}",
+      "http://plus.google.com/{{ site.google_username }}",
+      "http://twitter.com/{{ site.twitter_username }}"
+    ]
+  }
+  </script>
 </head>
