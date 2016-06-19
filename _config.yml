@@ -10,7 +10,7 @@ title: Explore Web-Development
 email: d.rudolf.von.rohr@gmail.com
 description: Tutorials, Info and more all about Web-Development. Especially Pimcore, Typo3, Javascript & SVG Animations etc.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://dvonrohr.ch # the base hostname & protocol for your site
+url: http://dvonrohr.com # the base hostname & protocol for your site
 twitter_username: dvonrohr
 github_username:  dvonrohr
 linkedin_username: dvonrohr
