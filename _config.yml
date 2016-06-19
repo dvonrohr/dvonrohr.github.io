@@ -22,3 +22,6 @@ avatar: /img/profile.jpg
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
