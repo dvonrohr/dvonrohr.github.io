@@ -11,18 +11,31 @@ email: d.rudolf.von.rohr@gmail.com
 description: Tutorials, Info and more all about Web-Development. Especially Pimcore, Typo3, Javascript & SVG Animations etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://dvonrohr.com # the base hostname & protocol for your site
+author: Daniel Von Rohr
+
+
 twitter_username: dvonrohr
 github_username:  dvonrohr
 linkedin_username: dvonrohr
 facebook_username: daniel.vonrohr
 google_username: +DanielRudolfvonRohr
 
-# used for opengraph
-fb_admins: https://www.facebook.com/daniel.vonrohr
-avatar: /img/profile.jpg
+twitter:
+  username: dvonrohr
+
+facebook:
+  publisher: daniel.vonrohr
+  admins: daniel.vonrohr
+
+logo: /img/profile.jpg
+
+social:
+    name: "Daniel Von Rohr"
+    links: ["http://www.facebook.com/daniel.vonrohr","https://github.com/dvonrohr","http://www.linkedin.com/in/dvonrohr","http://plus.google.com/+DanielRudolfvonRohr","http://twitter.com/dvonrohr"]
 
 # Build settings
 markdown: kramdown
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
