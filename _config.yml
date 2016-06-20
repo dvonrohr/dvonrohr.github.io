@@ -8,12 +8,12 @@
 # Site settings
 title: Explore Web-Development
 email: d.rudolf.von.rohr@gmail.com
-description: Tutorials, Info and more all about Web-Development. Especially Pimcore, Typo3, Javascript & SVG Animations etc.
+description: Tutorials and more about Web-Development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://dvonrohr.com # the base hostname & protocol for your site
 author: Daniel Von Rohr
 
-
+# refactor the vars down so it is in sync with jekyll-seo
 twitter_username: dvonrohr
 github_username:  dvonrohr
 linkedin_username: dvonrohr
@@ -29,9 +29,9 @@ facebook:
 
 logo: /img/profile.jpg
 
-social:
-    name: "Daniel Von Rohr"
-    links: ["http://www.facebook.com/daniel.vonrohr","https://github.com/dvonrohr","http://www.linkedin.com/in/dvonrohr","http://plus.google.com/+DanielRudolfvonRohr","http://twitter.com/dvonrohr"]
+# social:
+    # name: "Daniel Von Rohr"
+    # links: ["http://www.facebook.com/daniel.vonrohr","https://github.com/dvonrohr","http://www.linkedin.com/in/dvonrohr","http://plus.google.com/+DanielRudolfvonRohr","http://twitter.com/dvonrohr"]
 
 # Build settings
 markdown: kramdown
