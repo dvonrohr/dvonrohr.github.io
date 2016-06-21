@@ -10,7 +10,7 @@ title: Explore Web-Development
 email: d.rudolf.von.rohr@gmail.com
 description: Tutorials and more about Web-Development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://dvonrohr.com # the base hostname & protocol for your site
+url: https://dvonrohr.com # the base hostname & protocol for your site
 author: Daniel Von Rohr
 
 # refactor the vars down so it is in sync with jekyll-seo
@@ -39,3 +39,6 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude:
+  - node_modules
