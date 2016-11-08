@@ -5,12 +5,18 @@ description: An optional about page for BlogInn Jekyll theme
 banner_image: aboutPage.jpg
 ---
 
-**John Doe** is a Senior Art Director from [Vilnius](https://en.wikipedia.org/wiki/Vilnius), Lithuania. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+**Daniel Von Rohr** is a Full Stack Web Developer from Lucerne, Switzerland and works at
+<a href="http://frontal.ch" target="_blank">Frontal</a> based in Willisau, Switzerland.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2015.
+He worked professinally with <a href="http://typo3.org" target="blank">TYPO3</a> and
+<a href="http://pimcore.com" target="blank">Pimcore</a> as well with many other
+technologies. He loves coding with <a href="reactjs.org" target="_blank">React</a>.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+> What separates design from art is that design is meant to be… functional.
+<cite>- Cameron Moll</cite>
 
-As a hobby, John Doe authors the most influential design blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+In his pursuit to learn every day more he is in his right profession as learning
+in web development never stops. This blog will share experiences he made thru
+his daily work.
 
 *Thank You for reading!*
