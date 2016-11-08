@@ -5,40 +5,70 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Explore Web-Development
-email: d.rudolf.von.rohr@gmail.com
-description: Tutorials and more about Web-Development.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://dvonrohr.com # the base hostname & protocol for your site
-author: Daniel Von Rohr
+# Site title
+title: "BlogInn"
 
-# refactor the vars down so it is in sync with jekyll-seo
-twitter_username: dvonrohr
-github_username:  dvonrohr
-linkedin_username: dvonrohr
-facebook_username: daniel.vonrohr
-google_username: +DanielRudolfvonRohr
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "BlogInn is a bold theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net."
 
-twitter:
-  username: dvonrohr
+# Tagline near the site title
+tagline: "Thoughts, stories and ideas."
 
-facebook:
-  publisher: daniel.vonrohr
-  admins: daniel.vonrohr
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
 
-# logo: /img/profile.jpg
+sass:
+  sass_dir: _sass
 
-# social:
-    # name: "Daniel Von Rohr"
-    # links: ["http://www.facebook.com/daniel.vonrohr","https://github.com/dvonrohr","http://www.linkedin.com/in/dvonrohr","http://plus.google.com/+DanielRudolfvonRohr","http://twitter.com/dvonrohr"]
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "http://justgoodthemes.com"
 
-# Build settings
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Style Guides
+  url: /style-guide/
+- text: Archives
+  url: /tags/
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "John Doe"
+author_bio: "John is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious."
+author_url:  "http://justgoodthemes.com"
+author_location: "Vilnius, Lithuania"
+author_image: /images/authorimage.png
+
+# Sidebar Add banner
+banner_url: "http://justgoodthemes.com"
+banner_image: images/banner.jpg
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "username"
+googleplus_username: "+username"
+github_username: "username"
+codepen_username: "username"
+dribbble_uername: "username"
+medium_username: "@username"
+instagram_username: "username"
+pinterest_username: "username"
+linkedin_username: "username"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+gems: [jekyll-paginate]
+
+permalink: pretty
 markdown: kramdown
-
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-exclude:
-  - node_modules
+kramdown:
+    auto_ids: false
