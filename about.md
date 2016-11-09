@@ -5,18 +5,12 @@ description: An optional about page for BlogInn Jekyll theme
 banner_image: aboutPage.jpg
 ---
 
-**Daniel Von Rohr** is a Full Stack Web Developer from Lucerne, Switzerland and works at
-<a href="http://frontal.ch" target="_blank">Frontal</a> based in Willisau, Switzerland.
+My name is Daniel von Rohr. I'm a full-stack web developer and work for <a href="http://www.frontal.ch" target="_blank">Agency Frontal</a> in Willisau.
 
-He worked professinally with <a href="http://typo3.org" target="blank">TYPO3</a> and
-<a href="http://pimcore.com" target="blank">Pimcore</a> as well with many other
-technologies. He loves coding with <a href="reactjs.org" target="_blank">React</a>.
+I love working with new web technologies and have experience with Pimcore, TYPO3, PHP, Python, Golang, JS 5/6 and much more. Especially I love coding with react.
 
-> What separates design from art is that design is meant to be… functional.
-<cite>- Cameron Moll</cite>
+On my way to try out new things, I have created this blog. Here I would like to discuss it with other users and look at it more closely.
 
-In his pursuit to learn every day more he is in his right profession as learning
-in web development never stops. This blog will share experiences he made thru
-his daily work.
+> What separates design from art is that design is meant to be functional. <cite>- Cameron Moll</cite>
 
 *Thank You for reading!*
