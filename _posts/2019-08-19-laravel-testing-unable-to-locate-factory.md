@@ -12,6 +12,8 @@ Today I played around with feature tests in laravel, and got the following error
 InvalidArgumentException: Unable to locate factory with name [default] [App\Coupon]
 ```
 
+<!--more-->
+
 The factory itself looked like this:
 
 ```php
