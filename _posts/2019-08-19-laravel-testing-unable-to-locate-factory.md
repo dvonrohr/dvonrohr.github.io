@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Error message when using a laravel factory inside a feature test"
-date:   2019-08-18
-banner_image: vim-header.png
+title: "Error message when using a laravel factory inside a feature test"
+date: 2019-08-18
+banner_image: code-header.png
 tags: [php, laravel, testing]
 ---
 
