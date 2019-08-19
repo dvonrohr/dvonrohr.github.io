@@ -10,7 +10,7 @@ A strange problem arised in a simple layout component. The desired effect was to
 
 It should look somehow like this:
 
-![alt text](/images/posts/dvonrohr-chrome.png "Screenshot Chrome")
+![Screenshot Chrome](/images/posts/dvonrohr-chrome.png "Screenshot Chrome")
 
 <!--more-->
 
@@ -61,7 +61,7 @@ Important for this multi-line padded text is the attribute `box-decoration-break
 
 To my surprise it worked in IE 11, Edge and Chrome but in Firefox had a problem with the image in the before-pseudo-element.
 
-![alt text](/images/posts/dvonrohr-firefox.png "Screenshot Firefox")
+![Screenshot Firefox](/images/posts/dvonrohr-firefox.png "Screenshot Firefox")
 
 I found no good solution for this. Firefox doesn't set the background-color of the h3 with the same z-index as the text inside the h3 itself. The ::before pseudo element is between the background-color (or box-shadow) and the actual text. To fix this I ended up using a `span` tag inside.
 
