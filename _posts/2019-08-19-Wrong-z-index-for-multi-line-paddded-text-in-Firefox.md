@@ -63,7 +63,7 @@ To my surprise it worked in IE 11, Edge and Chrome but in Firefox had a problem 
 
 ![Screenshot Firefox](/images/posts/dvonrohr-firefox.PNG "Screenshot Firefox")
 
-I found no good solution for this. Firefox doesn't set the background-color of the h3 with the same z-index as the text inside the h3 itself. The ::before pseudo element is between the background-color (or box-shadow) and the actual text. To fix this I ended up using a `span` tag inside.
+I found no good solution for this. Firefox doesn't set the background-color of the h3 with the same z-index as the text inside the h3 itself. The ::before pseudo element is between the background-color (or box-shadow) and the actual text. To fix this I ended up using a `span` tag inside the h3.
 
 ```html
 <div class="my-card">
