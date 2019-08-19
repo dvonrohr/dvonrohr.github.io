@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wrong z-index for multi-line paddded text in firefox"
+title: "Wrong z-index for multi-line padded text in firefox"
 date: 2019-08-19
 banner_image: code-header.png
 tags: [css, design]
