@@ -23,22 +23,23 @@ plugin.tx_powermail {
 	settings {
 		setup {
 			excludeFromPowermailAllMarker {
-
+			
 				# In Mail to sender (if activated)
 				senderMail {
+				
 					# add some markernames (commaseparated) which should be excluded
 					excludeFromMarkerNames = adminonly, referrer
-
+					
 					# add some fieldtypes (commaseparated) which should be excluded
 					excludeFromFieldTypes = hidden, captcha
 				}
 			}
-    }
-  }
+    		}
+	}
 }
 ```
 
 This prevents the hidden-fields and captcha to be shown in the email to the sender. The receiver of the email will still get all parameters.
 
 
-<b id="l1">Link:</b> [Official Documentation](https://docs.typo3.org/typo3cms/extensions/powermail/7.3.1/ForAdministrators/BestPractice/RemoveValuesFromPowermailAll/Index.html) [↩](#link1)
+<b id="l1">Link:</b> [Official Documentation](https://docs.typo3.org/typo3cms/extensions/powermail/7.3.1/ForAdministrators/BestPractice/RemoveValuesFromPowermailAll/Index.html){:target="_blank"} [↩](#link1)
