@@ -6,9 +6,9 @@ banner_image: code-header.png
 tags: [typo3, powermail]
 ---
 
-Using the variable {powermail_all} in your email body is a short way to display all parameters given by the form in the email for the receiver and sometimes even for the sender. 
+Using the variable {powermail_all} in your email body is a short way to display all parameters given by the form in the email for the receiver and sometimes even for the sender.
 
-But if later hidden-fields are added powermail will add those to the email. Especially in the sender email this can look messy. 
+But if later hidden-fields are added powermail will add those to the email. Especially in the sender email this can look messy.
 
 <!--more-->
 
@@ -20,26 +20,25 @@ As default I have the following configuration in my Powermail setup.ts
 
 ```
 plugin.tx_powermail {
-	settings {
-		setup {
-			excludeFromPowermailAllMarker {
-			
-				# In Mail to sender (if activated)
-				senderMail {
-				
-					# add some markernames (commaseparated) which should be excluded
-					excludeFromMarkerNames = adminonly, referrer
-					
-					# add some fieldtypes (commaseparated) which should be excluded
-					excludeFromFieldTypes = hidden, captcha
-				}
-			}
-    		}
+  settings {
+	setup {
+	  excludeFromPowermailAllMarker {
+
+		# In Mail to sender (if activated)
+		senderMail {
+
+		  # add some markernames (commaseparated) which should be excluded
+		  excludeFromMarkerNames = adminonly, referrer
+
+		  # add some fieldtypes (commaseparated) which should be excluded
+		  excludeFromFieldTypes = hidden, captcha
+		}
+	  }
 	}
+  }
 }
 ```
 
 This prevents the hidden-fields and captcha to be shown in the email to the sender. The receiver of the email will still get all parameters.
 
-
-<b id="l1">Link:</b> [Official Documentation](https://docs.typo3.org/typo3cms/extensions/powermail/7.3.1/ForAdministrators/BestPractice/RemoveValuesFromPowermailAll/Index.html){:target="_blank"} [↩](#link1)
+<b id="l1">Link:</b> [Official Documentation](https://docs.typo3.org/typo3cms/extensions/powermail/7.3.1/ForAdministrators/BestPractice/RemoveValuesFromPowermailAll/Index.html){:target="\_blank"} [↩](#link1)
