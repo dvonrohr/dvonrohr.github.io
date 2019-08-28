@@ -23,32 +23,32 @@ The first thing is to change the image-tags in the html. Instead of adding path 
 After this change, only placeholder images are shown and a little javascript is needed to display the real images. 
 
 ```javascript
-	const $imgs = $('.lazy-img');
-	const $win = $(window);
+const $imgs = $('.lazy-img');
+const $win = $(window);
 
-	$imgs.lazyload({
-		effect: "fadeIn",
-		failure_limit: Math.max($imgs.length - 1, 0),
-		event: 'lazylazy'
-	});
+$imgs.lazyload({
+	effect: "fadeIn",
+	failure_limit: Math.max($imgs.length - 1, 0),
+	event: 'lazylazy'
+});
 
-	function loadVisible($els, trigger) {
-		$els.filter(function () {
-			var rect = this.getBoundingClientRect();
-			return rect.top >= 0 && rect.top <= window.innerHeight;
-		}).trigger(trigger);
-	}
+function loadVisible($els, trigger) {
+	$els.filter(function () {
+		var rect = this.getBoundingClientRect();
+		return rect.top >= 0 && rect.top <= window.innerHeight;
+	}).trigger(trigger);
+}
 
-	// Initialize isotope
-	$grid = $('.isotope-container').isotope();
+// Initialize isotope
+$grid = $('.isotope-container').isotope();
 
-	$grid.isotope('on', 'layoutComplete', function () {
-		loadVisible($imgs, 'lazylazy');
-	});
+$grid.isotope('on', 'layoutComplete', function () {
+	loadVisible($imgs, 'lazylazy');
+});
 
-	$win.on('scroll', function () {
-		loadVisible($imgs, 'lazylazy');
-	});
+$win.on('scroll', function () {
+	loadVisible($imgs, 'lazylazy');
+});
 ```
 
 First there is the declaration of the variables. Only image tags with the class .lazy-img are respected. After this we add the configuration how to lazy-load the images with jQuery LazyLoad as well the function ```loadVisible``` which checks the current position in the viewport.
