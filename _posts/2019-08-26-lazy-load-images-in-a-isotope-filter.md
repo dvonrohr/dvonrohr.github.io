@@ -12,7 +12,7 @@ If there are a lot of items which include images, lazy-loading can be necessary 
 
 <!--more-->
 
-Because [isotopte](https://isotope.metafizzy.co/) is used already in conjuction with jQuery, [jQuery Lazyload](https://appelsiini.net/projects/lazyload/) is a good little library.
+Because [isotope](https://isotope.metafizzy.co/) is used already in conjuction with jQuery, [jQuery Lazyload](https://appelsiini.net/projects/lazyload/) is a good little library.
 
 The first thing is to change the image-tags in the html. Instead of adding path and filename to the src-attribute it's added to the ```data-original``` attribute. The ```src``` attribute is used for a placeholder images, which should be preferably fast to load and because the same image is used it's cached by the browser. 
 
