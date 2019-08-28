@@ -6,7 +6,7 @@ banner_image: code-header.png
 tags: [javascript, isotope]
 ---
 
-When I need a simple filter on a website, usually [isotope](https://isotope.metafizzy.co){target: _blank} is a nice option in the toolbox of a web-developer. 
+When I need a simple filter on a website, usually [isotope](https://isotope.metafizzy.co){:target="\_blank"} is a nice option in the toolbox of a web-developer. 
 
 If there are a lot of items which include images, lazy-loading can be necessary because there are a lot of image request that are invisible or below-the-fold and shouldn't be loaded at once.
 
