@@ -59,6 +59,7 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     'nuxt-purgecss',
+    '@aceforth/nuxt-optimized-images',
   ],
   purgeCSS: {
     mode: 'postcss',
