@@ -1,7 +1,7 @@
 module.exports = {
-  prefix: '',
+  prefix: "",
   important: false,
-  separator: ':',
+  separator: ":",
   theme: {},
   variants: {},
   plugins: [],

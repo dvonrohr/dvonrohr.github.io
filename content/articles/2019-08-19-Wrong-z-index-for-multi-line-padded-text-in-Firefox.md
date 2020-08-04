@@ -4,7 +4,7 @@ slug: "wrong-zindex-multi-line-padded-text-firefox"
 date: 2019-08-19
 banner_image: code-header.png
 tags: [css, design]
-description: 
+description: ""
 ---
 
 A strange problem arised in a simple layout component. The desired effect was to have a headline that is 'multi-line padded' and has an image at the beginning behind the text and background color.

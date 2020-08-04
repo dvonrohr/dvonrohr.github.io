@@ -4,7 +4,7 @@ slug: "using-laravel-factory-inside-feature-test"
 date: 2019-08-18
 banner_image: code-header.png
 tags: [php, laravel, testing]
-description: 
+description: ""
 ---
 
 Today I played around with feature tests in laravel, and got the following error:

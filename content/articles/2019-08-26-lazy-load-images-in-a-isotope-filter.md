@@ -4,7 +4,7 @@ slug: "lazy-load-images-isotope-filter"
 date:   2019-08-26
 banner_image: code-header.png
 tags: [javascript, isotope]
-description: 
+description: ""
 ---
 
 When I need a simple filter on a website, usually [isotope](https://isotope.metafizzy.co){:target="\_blank"} is a nice option in the toolbox of a web-developer. 

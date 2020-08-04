@@ -4,7 +4,7 @@ slug: "using-the-vim8-package-manager"
 date:   2016-12-11
 banner_image: vim-header.png
 tags: [vim, git, workflow]
-description: 
+description: ""
 ---
 
 Yes, Vim 8 supports now kind of a package manager of its own. It's not exactly a package manager but supports autoloading your plugins if your folder structure matches a given structure. Used in conjunction with Git you have a fully fledged package manager of its own. For me, this was very exciting news. I always felt it's a piece vim lacks support in contrast to other editors.
