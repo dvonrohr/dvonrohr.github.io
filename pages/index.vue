@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-    <h1 class="text-xl">test</h1>
+  <div>
+    <h1 class="text-xl">
+      test
+    </h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ex facere
       sequi dolorum optio aliquam vero molestiae laboriosam alias quo
@@ -11,5 +13,8 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: "default",
+  components: {},
+}
 </script>
