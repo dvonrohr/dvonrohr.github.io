@@ -1,0 +1,26 @@
+@tailwind base;
+
+@font-face {
+    font-family: Rift;
+    font-weight: 900;
+    src: url(~static/fonts/Rift-Bold.woff) format("woff");
+}
+
+@font-face {
+font-family: OpenSans;
+font-weight: 500;
+src: url(~static/fonts/OpenSans-Regular.woff) format("woff");
+}
+
+@tailwind components;
+
+h1 {
+    font-family: 'Rift';
+}
+
+body {
+    font-family: 'OpenSans';
+    @apply text-gray-900;
+}
+
+@tailwind utilities;
