@@ -21,7 +21,7 @@ export default {
   },
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch()
-    console.log(article)
+
     return { article }
   },
   methods: {

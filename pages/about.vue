@@ -32,6 +32,5 @@
 <script>
 export default {
   layout: "default",
-  components: {},
 }
 </script>
