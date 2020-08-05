@@ -35,6 +35,7 @@
     "imagemin-svgo": "^8.0.0",
     "jest": "^26.1.0",
     "nuxt-purgecss": "^1.0.0",
+    "nuxt-svg-loader": "^1.2.0",
     "prettier": "^2.0.5",
     "vue-jest": "^3.0.4"
   }

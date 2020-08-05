@@ -2,7 +2,11 @@
   <div>
     <h1>About me</h1>
     <div>
-      <img src="~/assets/img/dvonrohr.png" alt="Daniel Von Rohr" />
+      <img
+        class="rounded-full w-64 h-64 border object-cover"
+        src="~/assets/img/dvonrohr.png"
+        alt="Daniel Von Rohr"
+      />
     </div>
     <div>
       <p>
@@ -25,6 +29,21 @@
         </p>
       </blockquote>
       <p><em>Thank You for reading!</em></p>
+    </div>
+    <div>
+      If you like to connect you add me on your prefered social media app.
+
+      <div>
+        <a href="#">
+          <img src="@/static/logos/twitter.svg?inline" />
+        </a>
+        <a href="#">
+          <img src="@/static/logos/linkedin.svg?inline" />
+        </a>
+        <a href="#">
+          <img src="@/static/logos/facebook.svg?inline" />
+        </a>
+      </div>
     </div>
   </div>
 </template>

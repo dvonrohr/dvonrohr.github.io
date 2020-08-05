@@ -60,6 +60,7 @@ export default {
     "@nuxt/content",
     "nuxt-purgecss",
     "@aceforth/nuxt-optimized-images",
+    "nuxt-svg-loader",
   ],
   purgeCSS: {
     mode: "postcss",
