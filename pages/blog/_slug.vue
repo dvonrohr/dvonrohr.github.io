@@ -1,7 +1,9 @@
 <template>
   <article>
-    <p>Article last updated: {{ formatDate(article.date) }}</p>
-    <nuxt-content :document="article" />
+    <h1 class="text-5xl mt-12">{{ article.title }}</h1>
+    <p>{{ formatDate(article.date) }}</p>
+
+    <nuxt-content class="my-16" :document="article" />
 
     <prev-next :prev="prev" :next="next" />
   </article>
