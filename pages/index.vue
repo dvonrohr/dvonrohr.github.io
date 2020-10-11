@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="mt-32 mb-20 w-5/6 m-auto">
-      <h1 class="text-5xl inline leading-none">
-        Welcome
-      </h1>
+      <h1 class="text-5xl inline leading-none">Welcome</h1>
       <p class="inline pt-12 pb-12 text-gray-800">
         and thanks for stopping by. This is my blog and here I post what
         interests me the most. I am not THE
@@ -18,9 +16,7 @@
         and can make mistakes (and admit it). If you have a different opinion or
         want to elaborate on a topic, I look forward reading from you.
       </p>
-      <p class="mt-4">
-        Thanks for reading!
-      </p>
+      <p class="mt-4">Thanks for reading!</p>
     </div>
     <ul class="max-w-3/4">
       <li v-for="article of articles" :key="article.slug" class="mt-4">
