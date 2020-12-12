@@ -1,6 +1,5 @@
 ---
 title:  Using the Vim 8 Package Manager
-slug: using-the-vim8-package-manager
 date: 2016-12-11
 description: "Vim 8 supports now kind of a package manager of its own. It's not exactly a package manager but supports autoloading your plugins if your folder structure matches a given structure. Used in conjunction with Git you have a fully fledged package manager of its own."
 img: vim

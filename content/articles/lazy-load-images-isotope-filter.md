@@ -1,6 +1,5 @@
 ---
 title: Lazy-load images in a isotope filter
-slug: lazy-load-images-isotope-filter
 date: 2019-08-26
 img: javascript
 description: "If there are a lot of items which include images, lazy-loading can be necessary because there are a lot of image request that are invisible or below-the-fold and shouldn't be loaded at once."

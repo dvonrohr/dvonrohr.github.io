@@ -1,6 +1,5 @@
 ---
 title: Error message when using a laravel factory inside a feature test
-slug: using-laravel-factory-inside-feature-test
 date: 2019-08-18
 img: laravel
 description: "How to solve the mysterious 'InvalidArgumentException: Unable to locate factory with name' error."

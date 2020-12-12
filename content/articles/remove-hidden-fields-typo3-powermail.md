@@ -1,6 +1,5 @@
 ---
 title: Remove hidden fields in emails sent with TYPO3 Powermail
-slug: remove-hidden-fields-typo3-powermail
 date: 2019-08-21
 img: typo3
 description: "Using the variable {powermail_all} in your email body is a short way to display all parameters given by the form in the email for the receiver and sometimes even for the sender."
