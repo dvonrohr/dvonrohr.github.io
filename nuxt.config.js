@@ -61,6 +61,7 @@ export default {
   purgeCSS: {
     mode: "postcss",
     enabled: process.env.NODE_ENV === "production",
+    whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
   },
   /*
    ** Content module configuration
