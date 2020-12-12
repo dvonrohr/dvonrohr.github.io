@@ -10,6 +10,15 @@
 </template>
 
 <script>
+import Prism from "prismjs"
+import "prismjs/components/prism-markup-templating"
+
+import "prismjs/components/prism-php.js"
+import "prismjs/components/prism-javascript.js"
+import "prismjs/components/prism-typescript.js"
+import "prismjs/components/prism-typoscript.js"
+import "prismjs/components/prism-scss.js"
+
 export default {
   props: {
     prev: {
@@ -20,6 +29,9 @@ export default {
       type: Object,
       default: () => null,
     },
+  },
+  mounted() {
+    Prism.highlightAll()
   },
   methods: {
     formatDate(date) {
