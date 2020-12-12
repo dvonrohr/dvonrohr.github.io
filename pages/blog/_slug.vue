@@ -12,6 +12,7 @@
 <script>
 import Prism from "prismjs"
 import "prismjs/components/prism-markup-templating"
+import "prism-themes/themes/prism-material-oceanic.css"
 
 import "prismjs/components/prism-php.js"
 import "prismjs/components/prism-javascript.js"
