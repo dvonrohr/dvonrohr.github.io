@@ -28,6 +28,11 @@ export default {
    ** Global CSS
    */
   css: ["~assets/styles/tailwind.css"],
+
+  googleAnalytics: {
+    id: 'UA-88822833-1',
+  },
+
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -46,6 +51,7 @@ export default {
     "@nuxtjs/eslint-module",
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-analytics",
   ],
   /*
    ** Nuxt.js modules
