@@ -7,4 +7,3 @@ Gemfile.lock
 .nuxt/
 *.icloud
 dist/
-static/sw.js
