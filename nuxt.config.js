@@ -63,6 +63,7 @@ export default {
     "nuxt-purgecss",
     "@aceforth/nuxt-optimized-images",
     "nuxt-svg-loader",
+    "@nuxtjs/sitemap",
   ],
   purgeCSS: {
     mode: "postcss",
@@ -78,6 +79,16 @@ export default {
         theme: false,
       },
     },
+  },
+  sitemap: {
+    path: "/sitemap.xml",
+    hostname: "https://dvonrohr.com",
+    async routes() {
+      const { $content } = require("@nuxt/content")
+      const files = await $content({ deep: true }).only(["path"]).fetch()
+
+      return files.map(file => file.path === "/index" ? "/" : file.path)
+    }
   },
   /*
    ** Build configuration
