@@ -1466,7 +1466,7 @@
     vue-meta "^2.4.0"
     vue-server-renderer "^2.6.12"
 
-"@nuxt/webpack@2.14.11":
+"@nuxt/webpack@2.14.11", "@nuxt/webpack@^2.14.11":
   version "2.14.11"
   resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.11.tgz#483bf7987fc55973d33f600389e0baa4040415ad"
   integrity sha512-f29Q0KgW1SrlX18kXNjx+ACe+H6645C20zpDR2EWwbny26SiyS8KRFpzw8V9YXXE1L4ExstoEBSAsnMRO9VThQ==
